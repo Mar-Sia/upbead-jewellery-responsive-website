@@ -1,5 +1,5 @@
 :root {
-  --background-color: rgba(255, 99, 42, 0.068);
+  --background-color: rgba(255, 99, 42, 0.295);
   --button-color: rgb(255, 99, 42);
   --primary-font: "Roboto", sans-serif;
 }
@@ -28,26 +28,36 @@ p {
 
 .hero h1 {
   font-weight: 700;
-  font-size: 86px;
+  font-size: 96px;
   letter-spacing: 0.1em;
   line-height: 1.5;
+  color: white;
 }
 
 .hero h2 {
   font-size: 24px;
+  color: white;
 }
 
 .hero h3 {
   font-size: 18px;
+  color: white;
 }
 
 .btn-branding {
   background-color: var(--button-color);
   color: white;
+  border: 1px solid;
+  border-color: var(--button-color);
   border-radius: 8px;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-branding:hover {
+  color: var(--button-color);
+  background-color: white;
 }
 
 .button-position {
@@ -81,7 +91,7 @@ p {
   }
 
   .hero h1 {
-    font-size: 56px;
+    font-size: 66px;
     letter-spacing: 0.05em;
   }
 
