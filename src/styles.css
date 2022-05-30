@@ -92,6 +92,10 @@ p {
   font-family: var(--primary-font);
 }
 
+.bg-light {
+  background-color: white !important;
+}
+
 @media (max-width: 992px) {
   .product-description {
     padding: 0;
