@@ -84,6 +84,14 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  width: 40px;
+}
+
+.brand-name {
+  font-family: var(--primary-font);
+}
+
 @media (max-width: 992px) {
   .product-description {
     padding: 0;
