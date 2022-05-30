@@ -1,4 +1,35 @@
+:root {
+  --background-color: rgba(255, 99, 42, 0.068);
+  --button-color: rgb(255, 99, 42);
+  --primary-font: "Roboto", sans-serif;
+}
+
 .hero {
-  background: rgba(255, 68, 0, 0.205);
+  background: var(--background-color);
   text-align: center;
+  font-family: var(--primary-font);
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 0.1em;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+
+.hero h3 {
+  font-size: 18px;
+}
+
+.btn-branding {
+  background-color: var(--button-color);
+  color: white;
+  radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
