@@ -104,8 +104,12 @@ p {
 }
 
 .content-container {
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   padding: 60px 20px;
+}
+
+.gallery-container {
+  padding: 60px 0px !important;
 }
 
 .content-container h1 {
@@ -113,7 +117,7 @@ p {
   font-size: 64px;
   font-family: var(--primary-font);
   font-weight: 700;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .about-me-buttons {
