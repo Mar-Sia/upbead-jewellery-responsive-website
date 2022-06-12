@@ -181,6 +181,10 @@ p {
   .content-container {
     padding-bottom: 0;
   }
+
+  .images-gallery {
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -200,5 +204,9 @@ p {
 
   .logo-top-of-page {
     max-width: 80px;
+  }
+
+  .product-description {
+    padding-bottom: 20px;
   }
 }
