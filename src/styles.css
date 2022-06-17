@@ -148,9 +148,7 @@ p {
   padding: 60px 20px;
 }
 
-.gallery-container {
-  padding: 60px 0px !important;
-}
+
 
 .content-container h1 {
   text-align: center;
@@ -166,6 +164,11 @@ p {
 
 .content-container a {
   color: var(--button-color);
+  text-decoration: none;
+}
+
+.content-container a:hover {
+  color: black;
   text-decoration: none;
 }
 
@@ -232,9 +235,17 @@ p {
   .images-gallery {
     padding-bottom: 20px;
   }
+
+  .hero-logo {
+    width: 100px;
+  }
 }
 
 @media (max-width: 576px) {
+  h3 {
+    font-size: 24px;
+  }
+
   .content-container {
     margin-bottom: 20px;
     padding: 10px 20px;
@@ -257,7 +268,8 @@ p {
     padding-bottom: 20px;
   }
 
-  h3 {
-    font-size: 24px;
+  nav a {
+    font-size: 14px;
+    margin: 5px;
   }
 }
