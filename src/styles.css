@@ -4,6 +4,34 @@
   --primary-font: "Roboto", sans-serif;
 }
 
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+  text-decoration: none;
+}
+
 body {
   font-family: var(--primary-font);
 }
@@ -23,11 +51,19 @@ p {
   line-height: 30px;
 }
 
+.container {
+  padding: 0;
+}
+
+.hero-logo {
+  width: 110px;
+}
+
 .hero {
   background: var(--background-color);
   text-align: center;
   font-family: var(--primary-font);
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1 {
@@ -89,7 +125,7 @@ p {
 }
 
 .logo {
-  width: 40px;
+  width: 50px;
 }
 
 .brand-name {
@@ -145,6 +181,9 @@ p {
   text-align: center;
 }
 
+.nav-bar {
+  padding: 5px 0;
+}
 @media (max-width: 992px) {
   .product-description {
     padding: 0;
