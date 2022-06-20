@@ -148,8 +148,6 @@ p {
   padding: 60px 20px;
 }
 
-
-
 .content-container h1 {
   text-align: center;
   font-size: 64px;
@@ -187,6 +185,14 @@ p {
 .nav-bar {
   padding: 5px 0;
 }
+
+.nav-bar-logo {
+}
+
+.nav-bar-links {
+  justify-content: right !important;
+}
+
 @media (max-width: 992px) {
   .product-description {
     padding: 0;
@@ -268,8 +274,12 @@ p {
     padding-bottom: 20px;
   }
 
+  .container {
+    justify-content: center !important;
+  }
+
   nav a {
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px;
   }
 }
