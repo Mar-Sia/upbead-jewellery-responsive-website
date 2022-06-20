@@ -34,24 +34,36 @@
   </head>
 
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between nav-bar">
-        <a href="/"><img src="images/upbead_logo.png" class="logo" /></a>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li class="active">
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="nav-bar-position-container">
+      <div class="nav-container d-flex justify-content-between">
+        <div>
+          <div class="nav-bar-logo">
+            <a href="/"
+              ><img src="images/upbead_logo.png" class="logo d-none d-md-block"
+            /></a>
+          </div>
+        </div>
+        <div>
+          <nav class="nav-bar">
+            <div class="nav-bar-links">
+              <ul>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li class="active">
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
 
     <div class="content-container gallery-container container pt-4">
