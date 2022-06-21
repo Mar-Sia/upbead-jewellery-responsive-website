@@ -45,6 +45,12 @@ h3 {
   font-family: var(--primary-font);
 }
 
+h4 {
+  font-size: 42px;
+  line-height: 1.5;
+  color: var(--button-color);
+}
+
 p {
   font-weight: 400;
   font-size: 16px;
@@ -79,7 +85,8 @@ p {
   color: white;
 }
 
-.hero h3 {
+.hero h3,
+footer p {
   font-size: 18px;
   color: white;
 }
@@ -210,7 +217,28 @@ p {
   color: var(--button-color) !important;
 }
 
+footer .contact-box {
+  background: var(--background-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-button {
+  margin-top: 40px;
+}
+
 @media (max-width: 992px) {
+  h4 {
+    font-size: 32px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
   .product-description {
     padding: 0;
     text-align: center;
