@@ -215,6 +215,12 @@ footer p {
 
 .page-link {
   color: var(--button-color) !important;
+  border-color: white;
+}
+
+.page-link:hover {
+  background-color: var(--background-color);
+  border-color: var(--background-color);
 }
 
 footer .contact-box {
